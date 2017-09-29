@@ -1,4 +1,4 @@
-# css-reset
+# CSS Reset
 A CSS reset intending to help combat unwanted environment attributes applied to your vacuum-developed components.
 
 Many times I generate components or features in a vacuum to cut down development time when I'd otherwise have to set up local instances of complex environments. Once the components are deployed within the environment, I often find that unwanted CSS attributes have been applied. These typically come from the environment's master style guide or loaded frameworks. In well-designed applications this shouldn't be an issue - as you'll be adhering to the style guide but I've found in many legacy applications that the style guide is outdated and counterproductive to the features I'm trying to implement. Other times, I know that a component might be used in many different environments and I simply don't want to risk dealing with any of the parent's styling leaking into my component.
